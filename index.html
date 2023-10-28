@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- Link for the Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Link for Css styles  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Link for icon -->
+
+
+  <title> Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="summary--body">
+    <div class="flex ">
+      <div class="first--section flex">
+        <p class="heading">
+          Your Result
+        </p>
+
+        <div class="score">
+          <p class="big--number">
+            76
+          </p>
+
+          <p class="small--number">
+            of 100
+          </p>
+        </div>
+
+        <div class="score--remark flex">
+          <h3 class="great">
+            Great
+          </h3>
+          <p class="two-line-remark">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="second--section container ">
+        <h2 class="summary--tittle"> Summary </h2>
+
+        <div class="tittle--container flex ">
+          <div class="tittle light-red red">
+            <div class="row">
+              
+              <p class="text">Reaction</p>
+              <p class="end-score">80 <span> / 100 </span></p>
+            </div>
+          </div>
+
+          <div class="tittle orangey-yellow">
+            <div class="row">
+              <p class="text">Memory</p>
+              <p class="end-score">92 <span class="grey"> / 100 </span></p>
+            </div>
+          </div>
+
+          <div class="tittle green-teal">
+            <div class="row">
+              <p class="text">Verbal</p>
+              <p class="end-score">61 <span> / 100 </span></p>
+            </div>
+          </div>
+
+          <div class="tittle cobalt-blue">
+            <div class="row">
+              <p class="text">Visual</p>
+              <p class="end-score">72 <span> / 100 </span></p>
+            </div>
+          </div>
+          
+        </div>
+
+        <a href="#" class="btn flex"> Continue</a>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Demicoder_x</a>.
+  </div>
+</body>
+</html>
