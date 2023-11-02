@@ -46,6 +46,12 @@ body {
     align-items: center;
 }
 
+.rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .jc--sb {
     /* display: flex; */
     flex-direction: row;
@@ -108,11 +114,11 @@ body {
 
 .two-line-remark {
     display: block;
+    padding: 0 7em;
     color: #fff;
     opacity: .75;
     font-size: 16px;
     text-align: center;
-    min-width: 260px; 
 }
 .second--section {
     padding: 2em 0;
@@ -166,7 +172,7 @@ span {
 
 .btn {
     display: inline-block;
-    padding: 1em 9em;
+    padding: 1em 7em;
     margin: 1em auto;
     background-color:  hsl(224, 30%, 27%);
     border-radius: 50px;
